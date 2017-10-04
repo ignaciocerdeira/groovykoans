@@ -8,12 +8,15 @@
 package org.groovykoans.koan03
 
 class NameWithDefaultValue {
-    String name
+	String name
 
-    // ------------ START EDITING HERE ----------------------
-    NameWithDefaultValue(String name = 'Anonymous') {
-        this.name = name
-    }
-    // ------------ STOP EDITING HERE  ----------------------
+	// ------------ START EDITING HERE ----------------------
+	NameWithDefaultValue(name = "Anonymous") {
+		this.name = name;
+	}
+
+
+
+	// ------------ STOP EDITING HERE  ----------------------
 
 }
