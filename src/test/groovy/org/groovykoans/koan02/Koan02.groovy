@@ -71,7 +71,8 @@ class Koan02 extends GroovyTestCase {
 		// ------------ START EDITING HERE ----------------------
 		//balance.putAt(3, 1) //Válido
 		//balance = balance.collect({i -> i?:-1}) //Válido
-		balance = balance.findAll({i -> i != 0}) //Válido
+		//balance = balance.findAll({i -> i != 0}) //Válido
+		balance = balance.grep({ i -> i != 0 }) //Válido
 
 		// ------------ STOP EDITING HERE  ----------------------
 
