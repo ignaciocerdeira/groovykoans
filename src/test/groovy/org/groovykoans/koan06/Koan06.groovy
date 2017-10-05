@@ -108,11 +108,11 @@ class Koan06 extends GroovyTestCase {
 		}
 
 		//Solucion propuesta
-		primesBetween200And250 = (200..250).findAll { candidate ->
-			(2..<candidate).every { divisor ->
-				candidate % divisor != 0
-			}
-		}
+		//		primesBetween200And250 = (200..250).findAll { candidate ->
+		//			(2..<candidate).every { divisor ->
+		//				candidate % divisor != 0
+		//			}
+		//		}
 
 
 		// ------------ STOP EDITING HERE  ----------------------
